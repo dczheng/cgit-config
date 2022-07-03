@@ -5,6 +5,8 @@ root-title=Dczheng
 root-desc=Dczheng's repos
 virtual-root=/
 
+about-filter=/usr/lib/cgit/filters/about-formatting.sh
+
 enable-index-links=1
 enable-log-filecount=1
 enable-log-linecount=1
@@ -12,5 +14,6 @@ enable-commit-graph=1
 enable-subject-links=1
 enable-http-clone=1
 enable-index-owner=0
+readme=:README.md
 
 scan-path=/home/git
