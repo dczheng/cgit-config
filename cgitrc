@@ -15,6 +15,7 @@ enable-commit-graph=1
 enable-subject-links=1
 enable-http-clone=1
 enable-index-owner=0
+enable-blame=1
 readme=:README.md
 
 scan-path=/home/git
