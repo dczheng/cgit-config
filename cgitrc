@@ -2,7 +2,7 @@ css=/cgit.css
 logo=/logo.jpeg
 favicon=/logo.jpeg
 root-title=Dczheng Git Repository
-root-desc=
+root-desc=me@dczheng.com
 virtual-root=/
 
 about-filter=/usr/lib/cgit/filters/about-formatting.sh
