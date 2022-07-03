@@ -1,8 +1,8 @@
 css=/cgit.css
 logo=/logo.jpeg
 favicon=/logo.jpeg
-root-title=Dczheng
-root-desc=Dczheng's repos
+root-title=Dczheng Git Repository
+root-desc=
 virtual-root=/
 
 about-filter=/usr/lib/cgit/filters/about-formatting.sh
