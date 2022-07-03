@@ -1,7 +1,8 @@
 css=/cgit.css
 logo=/logo.jpeg
-root-title=dczheng's git
-root-desc=dczheng's repos
+favicon=/logo.jpeg
+root-title=Dczheng
+root-desc=Dczheng's repos
 virtual-root=/
 
 enable-index-links=1
