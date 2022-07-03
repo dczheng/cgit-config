@@ -1,0 +1,15 @@
+css=/cgit.css
+logo=/logo.jpeg
+root-title=dczheng's git
+root-desc=dczheng's repos
+virtual-root=/
+
+enable-index-links=1
+enable-log-filecount=1
+enable-log-linecount=1
+enable-commit-graph=1
+enable-subject-links=1
+enable-http-clone=1
+enable-index-owner=0
+
+scan-path=/home/git
