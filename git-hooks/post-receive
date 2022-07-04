@@ -1,14 +1,11 @@
 REPO=cgit-config
 
-TMP=~/.tmp/${REPO}
+WT=~/work-tree/${REPO}
 SERVER=git@git-vultr:${REPO}
 GITHUB=git@github.com:dczheng/${REPO}
 
-mkdir -p ${TMP}
-
-git --work-tree=${TMP} clean -fd
-git --work-tree=${TMP} checkout --force
-git --work-tree=${TMP} push ${SERVER} master -f
-git --work-tree=${TMP} push ${GITHUB} master -f
-
-rm -rf ${TMP}
+mkdir -p ${WT}
+git --work-tree=${WT} clean -fd
+git --work-tree=${WT} checkout --force
+git --work-tree=${WT} push ${SERVER} master -f
+git --work-tree=${WT} push ${GITHUB} master -f
