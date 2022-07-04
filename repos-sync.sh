@@ -11,9 +11,10 @@ date >> $LOG
 echo $SEP >> $LOG
 for r in $REPOS
 do
+    cd $ROOT/$r
     changed=1
-    d=$ROOT/$r
-    cd $d
+    desc=`cat description`
+    echo "sync ..." > description
     WT=$WTROOT/$r
     mkdir -p ${WT}
     git config pull.rebase false
@@ -25,6 +26,7 @@ do
         echo "["$r"] pull" >> $LOG
         echo `date +"%D %T %Z"` > description
     else
+        echo $desc > description
         echo "["$r"] Already up to date" >> $LOG
     fi
 done
