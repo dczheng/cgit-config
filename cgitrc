@@ -18,6 +18,8 @@ enable-index-owner=0
 enable-blame=1
 max-stats=quarter
 readme=:README.md
+readme=:README
+readme=:Readme.md
 repository-sort=age
 
 scan-path=/home/git
